@@ -161,4 +161,3 @@ class Grader(SubmissionBase):
             except KeyError:
                 yield part_id, 0
             yield part_id, res
-
