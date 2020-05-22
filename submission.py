@@ -103,3 +103,5 @@ def sprintf(fmt, arg):
         return ' '.join(fmt % e for e in np.asarray(arg).ravel('F'))
     else:
         return fmt % arg
+
+    
